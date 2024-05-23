@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -146,8 +147,8 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "Mongodb",
+    img: "/mongodb.svg",
     nameImg: "/appName.svg",
   },
   {
@@ -158,14 +159,20 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
+    name: "Firebase",
+    img: "/firebase.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
+    name: "Netlify.",
+    img: "/netlify.svg",
+    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    name: "Appwrite.",
+    img: "/app.svg",
     nameImg: "/dockerName.svg",
   },
 ];
@@ -205,13 +212,19 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    color: "github-hover",
+    link: "https://github.com/HemanshuYPatil",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    color: "instagram-hover",
+    link: "https://www.instagram.com/2806__hemanshu_patil__/",
   },
   {
     id: 3,
     img: "/link.svg",
+    color: "linkedin-hover",
+    link: "https://www.linkedin.com/in/patil-hemanshu-yogesh-41a9652b1/",
   },
 ];

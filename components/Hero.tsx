@@ -3,8 +3,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import DocumentList from "./ui";
 
 const Hero = () => {
+  const database = "6622b79dc45ed9a3acca";
+  const collection = "664e40c00025d1f47d8c";
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -57,8 +60,9 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Hemanshu, a Full Stack Developer.
           </p>
+       
 
           <a href="#about">
             <MagicButton
@@ -74,3 +78,6 @@ const Hero = () => {
 };
 
 export default Hero;
+function handlecheck() {
+  throw new Error("Function not implemented.");
+}

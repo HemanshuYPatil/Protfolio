@@ -1,0 +1,32 @@
+
+.instagram-hover:hover {
+    background-color: #c32aa3 !important;
+    transition: 0.5s;
+}
+
+.linkedin-hover:hover {
+    background-color: #0a66c2 !important;
+    transition: 0.5s;
+}
+
+.github-hover:hover {
+    background-color: black !important;
+    transition: 0.5s;
+}
+
+
+
+.instagram-hover {
+
+    transition: 0.5s;
+}
+
+.linkedin-hover {
+
+    transition: 0.5s;
+}
+
+.github-hover {
+
+    transition: 0.5s;
+}
