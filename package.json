@@ -7,14 +7,13 @@
     "sentry:release": "npm sentry-cli releases new $(npx sentry-cli releases propose-version)",
     "build": "next build",
     "start": "next start",
+    "clean": "next clean",
     "lint": "next lint",
     "deploy": "vercel --prod"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
     "@react-three/fiber": "^8.16.2",
-    "@sentry/cli": "^2.31.2",
-    "@sentry/nextjs": "^8.4.0",
     "@tabler/icons-react": "^3.1.0",
     "@types/three": "^0.163.0",
     "appwrite": "^14.0.1",
