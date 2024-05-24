@@ -1,0 +1,80 @@
+[debug] [2024-05-24T05:56:19.717Z] ----------------------------------------------------------------------
+[debug] [2024-05-24T05:56:19.720Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\heman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-24T05:56:19.721Z] CLI Version:   13.10.0
+[debug] [2024-05-24T05:56:19.722Z] Platform:      win32
+[debug] [2024-05-24T05:56:19.722Z] Node Version:  v18.18.0
+[debug] [2024-05-24T05:56:19.725Z] Time:          Fri May 24 2024 11:26:19 GMT+0530 (India Standard Time)
+[debug] [2024-05-24T05:56:19.725Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-24T05:56:19.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-24T05:56:19.836Z] > authorizing via signed-in user (hemanshuypatil@gmail.com)
+[debug] [2024-05-24T05:56:19.836Z] [iam] checking project fir-e0d55 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-24T05:56:19.839Z] > refreshing access token with scopes: []
+[debug] [2024-05-24T05:56:19.841Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-05-24T05:56:19.841Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-24T05:56:20.333Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-05-24T05:56:20.334Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-24T05:56:20.349Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions [none]
+[debug] [2024-05-24T05:56:20.349Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions x-goog-quota-user=projects/fir-e0d55
+[debug] [2024-05-24T05:56:20.350Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-24T05:56:22.043Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions 200
+[debug] [2024-05-24T05:56:22.043Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-24T05:56:22.045Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 [none]
+[debug] [2024-05-24T05:56:22.679Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 200
+[debug] [2024-05-24T05:56:22.679Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 {"projectId":"fir-e0d55","projectNumber":"879100379437","displayName":"Web-App","name":"projects/fir-e0d55","resources":{"hostingSite":"fir-e0d55","realtimeDatabaseInstance":"fir-e0d55-default-rtdb","storageBucket":"fir-e0d55.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_fdc1e792-34c5-4f43-aa9d-ffa5e6cd753a"}
+[debug] [2024-05-24T05:56:22.683Z] Specified "public" directory "dist" does not exist; Deploy to Hosting site "hemanshu-portfolio" may fail or be empty.
+[info] 
+[info] === Deploying to 'fir-e0d55'...
+[info] 
+[info] i  deploying hosting 
+[info] Running command: npm run build
+[debug] [2024-05-24T06:02:05.590Z] ----------------------------------------------------------------------
+[debug] [2024-05-24T06:02:05.592Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\heman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-24T06:02:05.593Z] CLI Version:   13.10.0
+[debug] [2024-05-24T06:02:05.594Z] Platform:      win32
+[debug] [2024-05-24T06:02:05.594Z] Node Version:  v18.18.0
+[debug] [2024-05-24T06:02:05.597Z] Time:          Fri May 24 2024 11:32:05 GMT+0530 (India Standard Time)
+[debug] [2024-05-24T06:02:05.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-24T06:02:05.767Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-24T06:02:05.768Z] > authorizing via signed-in user (hemanshuypatil@gmail.com)
+[debug] [2024-05-24T06:02:05.769Z] [iam] checking project fir-e0d55 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-24T06:02:05.772Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions [none]
+[debug] [2024-05-24T06:02:05.773Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions x-goog-quota-user=projects/fir-e0d55
+[debug] [2024-05-24T06:02:05.773Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-24T06:02:07.836Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions 200
+[debug] [2024-05-24T06:02:07.836Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-24T06:02:07.838Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 [none]
+[debug] [2024-05-24T06:02:08.436Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 200
+[debug] [2024-05-24T06:02:08.437Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 {"projectId":"fir-e0d55","projectNumber":"879100379437","displayName":"Web-App","name":"projects/fir-e0d55","resources":{"hostingSite":"fir-e0d55","realtimeDatabaseInstance":"fir-e0d55-default-rtdb","storageBucket":"fir-e0d55.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_fdc1e792-34c5-4f43-aa9d-ffa5e6cd753a"}
+[debug] [2024-05-24T06:02:08.442Z] Specified "public" directory "dist" does not exist; Deploy to Hosting site "hemanshu-portfolio" may fail or be empty.
+[info] 
+[info] === Deploying to 'fir-e0d55'...
+[info] 
+[info] i  deploying hosting 
+[info] Running command: npm run build
+[debug] [2024-05-24T06:06:15.454Z] ----------------------------------------------------------------------
+[debug] [2024-05-24T06:06:15.459Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\heman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-24T06:06:15.460Z] CLI Version:   13.10.0
+[debug] [2024-05-24T06:06:15.461Z] Platform:      win32
+[debug] [2024-05-24T06:06:15.461Z] Node Version:  v18.18.0
+[debug] [2024-05-24T06:06:15.465Z] Time:          Fri May 24 2024 11:36:15 GMT+0530 (India Standard Time)
+[debug] [2024-05-24T06:06:15.465Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-24T06:06:15.665Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-24T06:06:15.668Z] > authorizing via signed-in user (hemanshuypatil@gmail.com)
+[debug] [2024-05-24T06:06:15.669Z] [iam] checking project fir-e0d55 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-24T06:06:15.679Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions [none]
+[debug] [2024-05-24T06:06:15.680Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions x-goog-quota-user=projects/fir-e0d55
+[debug] [2024-05-24T06:06:15.681Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-24T06:06:20.357Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions 200
+[debug] [2024-05-24T06:06:20.358Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-e0d55:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-24T06:06:20.361Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 [none]
+[debug] [2024-05-24T06:06:21.227Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 200
+[debug] [2024-05-24T06:06:21.228Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-e0d55 {"projectId":"fir-e0d55","projectNumber":"879100379437","displayName":"Web-App","name":"projects/fir-e0d55","resources":{"hostingSite":"fir-e0d55","realtimeDatabaseInstance":"fir-e0d55-default-rtdb","storageBucket":"fir-e0d55.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_fdc1e792-34c5-4f43-aa9d-ffa5e6cd753a"}
+[debug] [2024-05-24T06:06:21.229Z] Specified "public" directory "dist" does not exist; Deploy to Hosting site "hemanshu-portfolio" may fail or be empty.
+[info] 
+[info] === Deploying to 'fir-e0d55'...
+[info] 
+[info] i  deploying hosting 
+[info] Running command: npm run build

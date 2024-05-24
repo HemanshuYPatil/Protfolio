@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { FaLocationArrow } from "react-icons/fa6";
-import { databases } from "@/lib/database/db";
+import { databases } from "../lib/database/db";
 import { PinContainer } from "./ui/Pin";
 import { Models } from "appwrite";
 
