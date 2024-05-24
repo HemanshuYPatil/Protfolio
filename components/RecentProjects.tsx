@@ -45,8 +45,9 @@ const RecentProjects = () => {
     fetchProjects();
   }, []);
 
-
-
+  if(loading){
+    return <p>Loading...</p>
+  }
  
 
   return (
